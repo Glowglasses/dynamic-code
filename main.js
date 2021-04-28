@@ -2,7 +2,7 @@ let code = document.getElementsByClassName("code")[0]
 let style = document.querySelector("#style")
 let str = 
 `/* 你好，我是一名前端学习者，
- * 现在通过一个项目
+ * 现在通过画一个太极图
  * 来展示我的前端学习情况
  * 首先准备一个边框有点粗的正方形
  **/
