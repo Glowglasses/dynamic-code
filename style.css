@@ -1,0 +1,46 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+.code {
+  word-break: break-all;
+}
+.taichi {
+  position: fixed;
+  left: 40%;
+  top: 30px;
+}
+
+.taichi::after {
+  content: "";
+  display: block;
+  position: absolute;
+  border-radius: 50%;
+}
+.taichi::before {
+  content: "";
+  display: block;
+  position: absolute;
+  border-radius: 50%;
+}
+
+@media (max-width: 500px) {
+  .code {
+    height: 50vh;
+    overflow: auto;
+  }
+
+  .paint {
+    height: 50vh;
+    position: relative;
+  }
+
+  .taichi {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+}
